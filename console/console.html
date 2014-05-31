@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<style type="text/css">
+		#showbox{
+			/*display: none;*/
+			position: absolute;
+			/*top: 50%;
+			margin-top: -200px;
+			left: 50%;
+			margin-left: -250px;*/
+			padding: 20px;
+			-webkit-border-radius: 20px;
+			border: 10px solid #b9e3d9;
+			background: #f74461;  
+			font-size: 20px;
+		}
+		#content{
+			width: 500px;
+			height: 400px;
+			overflow-y: auto;
+			overflow-x: auto;
+			word-wrap: break-word;
+			word-break: break-all;
+		}
+		#new-list{
+			height:40px;
+			line-height: 40px;
+			width: 500px;
+			border-bottom: 1px dashed #f3f4f6;
+			color: #f3f4f6;
+		}
+		#navigator{
+			height: 50px;
+			line-height: 50px;
+			width: 500px;
+			-webkit-border-radius: 20px;
+			background: #adc3c0;
+		}
+		span{
+			margin-left: 20px;
+			color: #fff;
+			font-weight: bold;
+		}
+		input[type="button"]{
+			width: 30px;
+			height: 30px;
+			border-radius: 15px;
+			position:absolute;
+			margin-left: 350px;
+			margin-top: 10px;
+			background: #f74461;
+			border: none;
+			color: #fff;
+			font-family: "Tahoma";
+		}
+	</style>
+</head>
+<body>
+	<div id="showbox">
+		<div id="navigator">
+			<span>CONSOLE</span>
+			<input type="button" id="close" value="X"/>
+		</div>
+		<div id="content">	
+		</div>	
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/lib.js"></script>
+<script type="text/javascript" src="js/console.js"></script>
+<script type="text/javascript" src="js/consolelib.js"></script>
+</html>
