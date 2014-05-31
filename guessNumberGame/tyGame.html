@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>Js Game</title>
+	<link rel="stylesheet" href="css/tyGame.css" type="text/css"/>
+</head>
+<body>
+
+	<div id="around"></div>
+	<div id="box" style="display:none">
+		<div class="mainlist">
+			<div class="ques">Do you want to start again?</div>
+			<input type="button" value="SURE" id="sure"/>
+			<input type="button" value="CANCEL" id="close"/>
+		</div>
+	</div>
+	<div class="regular">
+		<span>
+			<b>
+				REGULAR: 点击START GAME时，游戏会生成一个四位数，你有9次机会猜这4位数，游戏会根据您输入的数字给予提示："__A__B"，其中A前面的数字表示位置正确的数字的个数，B前面的数字则表示数字正确而位置不对的数的个数。若游戏生成4位数为“2388”，输入8888，提示2A0B。
+			</b>
+		</span>
+		<h4>注：若不希望出现重复数字，请先选择NO REPEAT后点击START GAME,否则将不能点击NO REPEAT。</h4>
+	</div>
+	<div class="container">
+		<input type="button" value="START GAME" id="start"/>
+		<input type="checkbox" value="" id="checks"/>
+		<span id="norepeat">NO REPEAT</span>
+		<label for=""></label>
+		<table>
+			<tbody>
+				<tr>
+					<th class="">
+						<input type="text" value="" class="putin" disabled="disabled" maxlength="1"/>
+						<input type="text" value="" class="putin" disabled="disabled" maxlength="1"/>
+						<input type="text" value="" class="putin" disabled="disabled" maxlength="1"/>
+						<input type="text" value="" class="putin" disabled="disabled" maxlength="1"/>
+					</th>
+					<td>
+						<input type="submit" value="GO" id="ty-btn" disabled="disabled" title="sure"/>
+						<input type="submit" value="RESTA" id="ty-rebtn" title="restart"/>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>----------------------RESULT----------------------</p>
+		<div id="result">
+			
+		</div>
+	</div>
+	<!-- <div class="music">
+	<object classid="clsid:166B1BCA-3F9C-11CF-8075-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/director/sw.cab#version=8,5,0,0" width="32" height="32">
+  <param name="src" value="music/baiguiyexing.mp3" />
+  <embed src="music/baiguiyexing.mp3" pluginspage="http://www.macromedia.com/shockwave/download/" width="300" height="70"></embed>
+</object>
+</div> -->
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/lib.js"></script>
+<script type="text/javascript" src="js/tyGame.js"></script>
+</html>

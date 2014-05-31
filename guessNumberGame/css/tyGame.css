@@ -1,0 +1,162 @@
+.container{
+	position: relative;
+	margin: 0 auto;
+	background: #84af9b;
+	border-radius: 20px;
+	border:4px solid #1bd1a5;
+	width:600px;
+	min-height:300px;
+	padding:20px;
+}
+.regular{
+	color:#fff;
+	position: relative;
+	margin: 0 auto;
+	margin-top: -10px;
+	width:600px;
+	padding: 20px;
+	background: #fc9d99;
+	border-radius: 0 0 20px 20px;
+	margin-bottom: 10px;
+	border:4px solid #f9906f;
+	border-top: none;
+}
+input[type="button"]{
+	margin: 20px 0px 20px 50px;
+	background: #ff4364;
+}
+input[type="button"],input[type="submit"]{
+	color: #fff;
+	border: none;
+	border-radius: 5px; 
+	font-weight: bold;
+}
+label{
+	font-weight: bold;
+	color:#fc9d99;
+	font-size: 22px;
+	margin-left: 35px;
+}
+#ty-btn,#ty-rebtn{
+	width:200px;
+	font-size: 20px;
+	width:90px;
+	height: 40px;
+	background: #ff4364;
+}
+#start{
+	color: #fff;
+	border: none;
+	height:50px;
+	width:200px;
+	font-size: 20px;
+}
+#checks{
+	margin-left: 20px;
+	width:20px;
+	height:20px;
+}
+#norepeat{
+	font-size: 20px;
+	color:#fff;
+}
+input[type="text"]{
+	width:25px;
+	margin-left:20px;
+	float: left;
+	color:#666;
+	width:50px;
+	height:50px;
+	font-size: 20px;
+	text-align: center;
+}
+table{
+	width:550px;
+	margin-left:40px;
+}
+table th{
+	width:350px;
+	text-align: center;
+}
+table td{
+	width:200px;
+	text-align: center;
+}
+#error{
+	width:250px;
+	float:right;
+	color: #777;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 350px;
+}
+#trues{
+	width:250px;
+	color: #ff4364;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+	float:left;
+	margin-left: 70px;
+}
+#success{
+	color: #c93756;
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+	text-align: center;
+}
+#result{
+	overflow: hidden;
+	zoom:1;
+	_overflow:visible;
+}
+p{
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+#box{
+	position:absolute;
+	width:400px;
+	height:120px;
+	left:50%;
+	top:50%;
+	margin-top: -60px;
+	margin-left: -200px;
+	z-index:10000;
+	background-color:#eedeb0;
+	border:1px #8FA4F5 solid;
+	border-radius: 5px;
+	padding:1px;
+}
+#box .mainlist{
+	padding:2px;
+}
+#around{
+	background-color:#666;
+	position:absolute;
+	z-index:9999;
+	left:0;
+	top:0;
+	display:none;
+	width:100%;
+	height:100%;
+	opacity:0.5;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+}
+#sure,#close{
+	width:70px;
+	height:30px;
+	margin-left: 80px;
+}
+.ques{
+	text-align: center;
+	margin-top: 20px;
+	color: #84af9b;
+	font-size: 18px;
+	font-weight: bold;
+}
