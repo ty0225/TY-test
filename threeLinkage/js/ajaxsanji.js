@@ -18,7 +18,7 @@ ajaxapp=(function(){
 	function ajaxEvent(){
 		var obj={
 			type:"get",
-			url:"js/diu.json",
+			url:"js/ty.json",
 			success:function(rep){
 				response=JSON.parse(rep);
 				for(var i=0;i<response.length;i++){
